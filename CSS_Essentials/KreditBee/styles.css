@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#logo{
+    width: 35spx;
+    height: 35px;
+    position: absolute;
+    margin-left: -45px;
+    margin-top: -5px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#cart{
+    margin-right: -200px;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.signup-btn {
+    border: 2px solid red;
+    background-color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Why Choose KreditBee Section */
+.why-choose {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.why-choose h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+#yellowLine{
+    background: rgb(255, 213, 0);;
+    width: 9%;
+    margin: auto;
+    height: 7px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    border-radius: 5px;
+    
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.feature {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.feature h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #555;
+}
+
+/* Blog Section */
+.blog {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.blog h5 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    margin-left: 17%;
+}
+
+.blog-posts {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+}
+
+.post {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    max-width: 300px;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post h4 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.post p {
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Create Account Form */
+.create-account {
+    background-color: #FFD94F;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form p a{
+    text-decoration: none;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+#policy{
+    font-size: 10px;
+}
+#policy a{
+    text-decoration: underline;
+    color: blue;
+}
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
