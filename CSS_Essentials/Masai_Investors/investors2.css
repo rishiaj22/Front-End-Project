@@ -1,0 +1,127 @@
+#top{
+    height: 270px ;
+    width: 80%;
+    margin: auto;
+}
+#top>div{
+    height: 60px;
+    width: 50%;
+    margin: auto;
+}
+#top>div>h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#toplogo{
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+#toplogo>div{
+    width: 100%;
+}
+#top>#toplogo>div>img{
+    width: 100%;
+}
+#top>div:last-child{
+    height: 40px;
+    margin-top: 10px;
+    padding: 6px 0px 0px 0px;
+}
+#top>div:last-child>p{
+    font-size: 23px;
+    color:black;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#parent{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#parent>div{
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;;
+
+}
+.pic{
+    width: 85%;
+    height: 230px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+h3{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 1px;
+    color: rgb(40, 39, 39);
+}
+p{
+    text-align: center;
+    color: rgb(84,77,79);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.logo{
+    display: block;
+    width: auto;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-20px;
+
+}
+
+@media all and (min-width:621px) and (max-width:900px){
+    #parent{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: auto;
+        gap:30px 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+}
+@media all and (min-width:320px) and (max-width:620px) {
+    #parent{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: auto;
+        gap:20px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 440px;
+    }
+ 
+    #top>#toplogo{
+        height: auto;
+        width: auto;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+    }
+    #top>div{
+        height: 60px;
+        width: 100%;
+        margin: auto;
+    }
+}
